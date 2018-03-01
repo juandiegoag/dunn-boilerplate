@@ -1,0 +1,20 @@
+{
+    "site": {
+      "url": "http://localhost:8080",
+      "name": "The SSG",
+      "owner": "John",
+      "description": "djaklsdjak dkaljs"
+    },
+    "content": {
+      "plugins" : ["kramdown.js","markdown.js"]
+    },
+    "template": {
+      "plugins" : ["ejs.js","handlebars.js"]
+    },
+    "style":{
+      "plugins":["sass.js","cleancss.js"]
+    },
+    "entry":"index.html"
+
+  }
+  
